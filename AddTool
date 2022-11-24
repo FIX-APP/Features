@@ -1,0 +1,6 @@
+Feature: Como técnico quiero añadir una herramienta ára tener un registro de estas.
+  Scenario : El técnico añade tools a su cuenta.
+
+    Given se encuentra en el diálogo de Add Tool
+    When hace click al botón de "Add tool"
+    Then se añade un tool a su cuenta
